@@ -1,0 +1,167 @@
+body{
+    font-family: "Noto Sans", sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #ffffff;
+}
+.list{
+    display: flex;
+   
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.list li{
+margin: 0 5px  ;
+}
+
+.header{
+    background: linear-gradient(to right, #415BD2,#8DA1F7);
+    padding: 20px;
+    color: white;
+}
+
+.container{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:#333;
+}
+h2{
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+p{
+    margin-bottom: 20px;
+}
+ol ul{
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+li{
+    margin-bottom: 20px;
+    line-height: 1.6rem;
+}
+footer {
+    background-color:#F4F6FA;
+    ;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #1E222E;
+}
+
+.footer {
+    background-color: #F4F6FA;
+    padding: 20px 0;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1450px;
+    margin: 0 auto;
+  }
+  
+  .footer__logo-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer__logo {
+    height: 36px;
+    width: 170px;
+  }
+  
+  .footer__contacts-list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer__contacts-item {
+    text-align: center;
+  }
+  
+  .footer__contacts-text {
+    display: block;
+    font-size: 12px;
+    color:#6A6E80;
+    margin-bottom: 4px;
+  }
+  
+  .footer__contacts-phone {
+    display: block;
+    font-weight: bold;
+    color:#1E222E;
+    text-decoration: none;
+  }
+
+  
+  .footer__info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .footer__info-text {
+    font-size: 12px;
+    color:#6A6E80;
+  }
+  
+  .footer__app-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer__app-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer__app-icon {
+    height: 20px;
+    width: 20px;
+    border-radius: 5px; 
+    margin: 10px;
+  }
+  
+  .footer__note {
+    font-size: 12px;
+    color:#6A6E8066;
+    text-align: right;
+    margin-top: 5px;
+  }
+
+  .header:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1450px;
+    margin: 0 auto;
+  }
